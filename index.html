@@ -1,12 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Landing Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miner — Shift Work, Streamlined</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    header {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .cta-button {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .cta-button:hover {
+      background-color: #dddddd;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: #f2f2f2;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #555555;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+
+    .hero .cta-button {
+      font-size: 1em;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 20px;
+      background-color: #ffffff;
+    }
+
+    .feature {
+      max-width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .feature h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eeeeee;
+      color: #777777;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Landing Page</h1>
-    <p>This is a simple webpage.</p>
+  <header>
+    <div class="logo">Miner</div>
+    <button class="cta-button">Request a demo</button>
+  </header>
+
+  <section class="hero">
+    <h1>Facilitating Safety and Supply Chain Efficiency for Shift Workers</h1>
+    <p>Miner helps heavy industry teams streamline shift transitions by tracking on-site incidents, staffing, timekeeping, and equipment orders — reducing downtime and preventing duplicate requests.</p>
+    <button class="cta-button">Request a demo</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Incident Tracking</h3>
+      <p>Log safety incidents and ensure all site hazards are communicated across shifts.</p>
+    </div>
+    <div class="feature">
+      <h3>Shift Staffing & Timekeeping</h3>
+      <p>Know who’s on site, when, and for how long. Streamline handoffs and eliminate manual logs.</p>
+    </div>
+    <div class="feature">
+      <h3>Supply Chain Sync</h3>
+      <p>Track equipment and supply orders across shifts so nothing gets missed or duplicated.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Miner. All rights reserved.
+  </footer>
 </body>
 </html>
